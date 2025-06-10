@@ -1,3 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 :root {
+    --dsct-color-bg-primary: #3c9af0;
+    --dsct-color-bg-secundary: #d9d9d9;
+
+    --dsct-color-font-primary: #fff;
 }
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+html,
+body {
+    background-color: var(--dsct-color-bg-secundary);
+}
+
+.dsct-container {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+}
