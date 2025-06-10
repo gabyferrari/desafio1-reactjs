@@ -5,6 +5,9 @@
     --dsct-color-bg-secundary: #d9d9d9;
 
     --dsct-color-font-primary: #fff;
+    --dsct-color-font-secundary: #5e5e5e;
+
+    --dsct-color-card-border: #3c9af0;
 }
 
 * {

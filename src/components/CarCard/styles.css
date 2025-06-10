@@ -1,0 +1,28 @@
+.dsct-card-container {
+    border: 1px solid red;
+    padding: 20px 10px;
+}
+
+.dsct-card-container h2 {
+    text-align: center;
+    color: var(--dsct-color-font-secundary);
+    font-size: 20px;
+}
+
+.dsct-car-card {
+    width: 280px;
+    height: 248px;
+    border: 1px solid var(--dsct-color-card-border);
+    border-radius: 10px;
+}
+
+.dsct-car-card img {
+    width: 260px;
+    margin: 8px;
+}
+
+.dsct-car-card h3 {
+    text-align: center;
+    color: var(--dsct-color-font-secundary);
+    font-size: 16px;
+}
