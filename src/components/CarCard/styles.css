@@ -5,7 +5,7 @@
 
 .dsct-card-container h2 {
     text-align: center;
-    color: var(--dsct-color-font-secundary);
+    color: var(--dsct-color-font-secondary);
     font-size: 20px;
 }
 
@@ -23,6 +23,6 @@
 
 .dsct-car-card h3 {
     text-align: center;
-    color: var(--dsct-color-font-secundary);
+    color: var(--dsct-color-font-secondary);
     font-size: 16px;
 }

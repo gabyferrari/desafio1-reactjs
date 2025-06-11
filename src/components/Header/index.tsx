@@ -1,6 +1,6 @@
 import './styles.css'
 
-export default function App() {
+export default function Header() {
 
   return (
    <header>

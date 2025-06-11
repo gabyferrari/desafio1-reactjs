@@ -1,7 +1,7 @@
 import "./styles.css";
 import carImg from '../../assets/car.png'
 
-export default function App() {
+export default function CarCard() {
 
   return (
     <div className="dsct-card-container">

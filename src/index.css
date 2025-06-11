@@ -2,10 +2,13 @@
 
 :root {
     --dsct-color-bg-primary: #3c9af0;
-    --dsct-color-bg-secundary: #d9d9d9;
+    --dsct-color-bg-secondary: #d9d9d9;
+    --dsct-color-bg-tertiary: #c8c8c8;
+    --dsct-color-bg-quarternary: #fff;
 
     --dsct-color-font-primary: #fff;
-    --dsct-color-font-secundary: #5e5e5e;
+    --dsct-color-font-secondary: #5e5e5e;
+    --dsct-color-font-tertiary: #3c9af0;
 
     --dsct-color-card-border: #3c9af0;
 }
@@ -25,7 +28,7 @@ a:hover {
 
 html,
 body {
-    background-color: var(--dsct-color-bg-secundary);
+    background-color: var(--dsct-color-bg-secondary);
 }
 
 .dsct-container {
