@@ -9,7 +9,7 @@ export default function App() {
     <>
       <Header />
       <main className="dsct-page-main">
-        <section id="car-card-section" className="dsct-container">
+        <section id="car-card-section">
           <CarCard /> 
         </section>
         <section id="comments-section">
