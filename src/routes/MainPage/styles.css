@@ -1,7 +1,15 @@
 #car-card-section {
-    padding: 20px;
+    padding: 0 15px;
+    background-color: var(--dsct-color-bg-secondary);
 }
 
-.dsct-page-main {
-    padding: 0 10px;
+.dsct-card-container {
+    width: 100%;
+    max-width: 746px;
+    margin: 0 auto;
+}
+
+#comments-section {
+    padding: 20px 15px 5px 15px;
+    background-color: var(--dsct-color-bg-tertiary);
 }

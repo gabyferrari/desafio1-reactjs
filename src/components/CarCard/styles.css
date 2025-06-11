@@ -1,14 +1,3 @@
-#car-card-section {
-    padding: 0 15px;
-    background-color: var(--dsct-color-bg-secondary);
-}
-
-.dsct-card-container {
-    width: 100%;
-    max-width: 746px;
-    margin: 0 auto;
-}
-
 .dsct-card-container h2 {
     text-align: center;
     color: var(--dsct-color-font-secondary);
@@ -21,19 +10,29 @@
     height: 248px;
     display: flex;
     flex-direction: column; 
-    justify-content: center;
     align-items: center; 
+    padding: 10px;
     border: 1px solid var(--dsct-color-card-border);
     border-radius: 10px;
-    color: var(--dsct-color-font-secondary);
     margin-bottom: 20px; 
 }
 
 .dsct-car-card img {
-    width: 260px;
-    
+    width: 100%;
+    max-width: 260px;
+    margin-bottom: 8px;
 }
 
 .dsct-car-card h3 {
     font-size: 16px;
+    color: var(--dsct-color-font-secondary);
+}
+
+@media (min-width: 576px) {
+    .dsct-card-container h2 {
+    font-size: 32px;
+    }
+    .dsct-car-card h3 {
+    font-size: 20px;
+    }
 }

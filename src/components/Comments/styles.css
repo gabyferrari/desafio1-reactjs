@@ -1,9 +1,4 @@
-#comments-section {
-    padding: 20px 15px 5px 15px;
-    background-color: var(--dsct-color-bg-tertiary);
-}
-
-#comments-section h2 {
+.dsct-container h2 {
     text-align: center;
     color: var(--dsct-color-font-secondary);
     font-size: 20px;
@@ -13,8 +8,18 @@
 .dsct-card-comment {
     padding: 25px 20px;
     background-color: var(--dsct-color-bg-quarternary);
-    color: var(--dsct-color-font-tertiary);
     border: 1px solid var(--dsct-color-card-border);
     border-radius: 12px;
     margin: 20px 0;
+}
+
+.dsct-card-comment p {
+    font-size: 16px;
+    color: var(--dsct-color-font-tertiary);
+}
+
+@media (min-width: 576px) {
+    .dsct-container h2 {
+    font-size: 32px;
+    }   
 }
